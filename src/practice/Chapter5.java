@@ -8,7 +8,9 @@ public class Chapter5 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		
+		//並べ替え前のタスク格納先
 		List<Task> taskList_bef = new ArrayList<>();
+		//並べ替え後のタスク格納先
 		List<Task> taskList_aft = new ArrayList<>();
 		
 		taskList_bef.add(new Task(2021,10,21,"牛乳を買う"));
