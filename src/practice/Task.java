@@ -2,7 +2,7 @@ package practice;
 
 import java.time.LocalDate;
 
-public class Task {
+public class Task implements Comparable<Task>{
 	
 	private LocalDate date;
 	private String task;
@@ -21,5 +21,11 @@ public class Task {
 		return task;
 	}
 	
+	
+    @Override
+    public int compareTo(Task otherTask) {
+        // 年齢で比較する例
+        return this.date.compareTo(otherTask.date);
+    }
 
 }
