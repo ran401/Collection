@@ -24,7 +24,6 @@ public class Task implements Comparable<Task>{
 	
     @Override
     public int compareTo(Task otherTask) {
-        // 年齢で比較する例
         return this.date.compareTo(otherTask.date);
     }
 
