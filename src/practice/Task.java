@@ -14,11 +14,11 @@ public class Task implements Comparable<Task>{
 	}
 	
 	public LocalDate getDate() {
-		return date;
+		return this.date;
 	}
 
 	public String getTask() {
-		return task;
+		return this.task;
 	}
 	
 	
